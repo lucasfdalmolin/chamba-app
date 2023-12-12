@@ -1,13 +1,11 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import Hello from './Hello'
 
-
-const App: React.FC = () => {
+const Hello: React.FC = () => {
 
     return (
         <View style={styles.container} >
-            <Hello />
+            <Text>Hellooooooo </Text>
         </View>
     )
 
@@ -22,4 +20,4 @@ const styles = StyleSheet.create({
 })
 
 
-export default App
+export default Hello
