@@ -1,13 +1,13 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import Hello from './Hello'
+import Home from './src/screens/Home'
 
 
 const App: React.FC = () => {
 
     return (
         <View style={styles.container} >
-            <Hello />
+            <Home />
         </View>
     )
 
